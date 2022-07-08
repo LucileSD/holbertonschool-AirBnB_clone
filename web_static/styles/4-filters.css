@@ -16,6 +16,10 @@ button {
 	margin-right: 30px;
 	margin-top: 10px;
 }
+button:hover {
+	background-color: #FF5A5F;
+	opacity: 0.9;
+}
 p {
 	color: #FFFFFF;
 }
