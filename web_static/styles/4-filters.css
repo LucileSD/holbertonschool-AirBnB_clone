@@ -15,11 +15,9 @@ button {
 	margin-left: auto;
 	margin-right: 30px;
 	margin-top: 10px;
+	color: #FFFFFF;
 }
 button:hover {
 	background-color: #FF5A5F;
 	opacity: 0.9;
-}
-p {
-	color: #FFFFFF;
 }
