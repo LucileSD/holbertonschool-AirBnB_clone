@@ -1,0 +1,173 @@
+.places
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.places h1{
+    font-size: 30px;
+    margin-right: 100%;
+    margin-left: 100px;
+	margin-bottom: -5px;
+}
+@media (max-width: 640px) 
+{
+	.places h1
+		{
+			margin-left: 390px;
+		}
+}
+.places article
+{
+    width: 390px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+    display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	position: relative;
+    padding: 20px;
+    margin: 20px
+}
+
+.places article h2
+{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+	display: flex;
+	justify-content: center;
+}
+
+.price_by_night {
+	border: 3px solid #FF5A5F;
+	border-radius: 100%;
+	min-width: 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-left: auto;
+	margin-top: -40px;
+	justify-content: center;
+}
+
+.price_by_night p {
+	font-size: 30px;
+	color: #FF5A5F;
+}
+.information {
+	height: 80px;
+	border-top:  #DDDDDD solid 1px;
+	border-bottom:  #DDDDDD solid 1px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.max_guest, .number_rooms, .number_bathrooms {
+	width: 100px;
+	text-align: center;
+    margin-right: 3px;
+	margin-top: 5px;
+}
+
+.user {
+	display: flex;
+	justify-content: flex-start;
+}
+.icon_guest{
+	margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 50px;
+	background: url("/images/icon_group.png");
+}
+.icon_room {
+	margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 50px;
+	background: url("/images/icon_bed.png");
+}
+.icon_bath {
+	margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 50px;
+	background: url("/images/icon_bath.png");
+}
+.max_guest p, .number_rooms p, .number_bathrooms p {
+	margin-top: 0px;
+}
+
+.places .amenities h2, .places .reviews h2 {
+	margin-top: 40px;
+	font-size: 16px;
+	border-bottom: #DDDDDD 1px solid;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.places .amenities li {
+	margin-left:  -30px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.icon_tv {
+	height: 30px;
+    width: 30px;
+	padding-left: 10px;
+	background: url("/images/icon_tv.png") no-repeat center;
+	background-size: contain;
+}
+
+.icon_wifi {
+	height: 30px;
+    width: 30px;
+	padding-left: 10px;
+	background: url("/images/icon_wifi.png") no-repeat center;
+	background-size: contain;
+}
+
+.icon_pet {
+	height: 30px;
+    width: 30px;
+	padding-left: 10px;
+	background: url("/images/icon_pets.png") no-repeat center;
+	background-size: contain;
+}
+.amenities li {
+	list-style: none;
+}
+
+.amenities p {
+	font-size: 14px;
+	margin-top: 10px;
+
+}
+
+.places .reviews ul li {
+	list-style: none;
+}
+.places .reviews ul {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin-left: -40px;
+}
+.places .reviews ul li h3 {
+	font-size: 14px;
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 0px;
+}
+
+.places .reviews ul li p {
+	margin-top: 0px;
+}
