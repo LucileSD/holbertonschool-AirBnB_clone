@@ -118,32 +118,34 @@ footer {
 }
 
 .icon_tv {
-	height: 40px;
-    width: 40px;
+	height: 30px;
+    width: 30px;
 	padding-left: 10px;
 	background: url("/images/icon_tv.png") no-repeat center;
+	background-size: contain;
 }
 
 .icon_wifi {
-	height: 40px;
-    width: 40px;
+	height: 30px;
+    width: 30px;
 	padding-left: 10px;
 	background: url("/images/icon_wifi.png") no-repeat center;
+	background-size: contain;
 }
 
 .icon_pet {
-	height: 40px;
-    width: 40px;
+	height: 30px;
+    width: 30px;
 	padding-left: 10px;
 	background: url("/images/icon_pets.png") no-repeat center;
+	background-size: contain;
 }
-.amenities ul li {
+.amenities li {
 	list-style: none;
 }
 
 .amenities p {
 	font-size: 14px;
-	padding-right: 265px;
 }
 
 .places .reviews ul li {
