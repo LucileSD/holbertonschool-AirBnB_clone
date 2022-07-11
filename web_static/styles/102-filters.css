@@ -41,7 +41,7 @@ button:hover {
 	margin-top: 2px;
 	display: block;
 }
-@media (max-width: 640px) 
+@media (max-width: 800px) 
 {
     .filters h4
     {
